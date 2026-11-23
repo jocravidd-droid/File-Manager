@@ -24,7 +24,7 @@ que vous avait fournis
 
 Pour l'utilisation le dossier `examples` explique tout en détaille sur comment l'utiliser que ce sa soit
 les commande, les exemples d'entrée, et les resultat de chaque commande et comment manipuler le programme
-et bien d'autre donc merci de vous rendre dans le dossier `examples` pour plus d'info
+et bien d'autre donc merci de vous rendre dans le dossier `examples` pour plus d'informations
 
 ### TEST
 
