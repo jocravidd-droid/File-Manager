@@ -29,14 +29,17 @@ et bien d'autre donc merci de vous rendre dans le dossier `examples` pour plus d
 ### TEST
 
 Pour les test aller dans le dossier `tests` et adapater a vos modifications
-le mien test si la fonction checker() laisse passez des dossier inexistant
-et si les dossier existant sont bien détecter et verifie aussi si show() previens
-si le dossier n'existe pas et si les fonction de recherche ciblé fonctionne ainsi
-que la fonction de recherche par extension
+mon test etait adapter a mon environnement et a mais fichier dans le dossier le .py
+test si la fonction checker() laisse passez des dossier inexistant et si les dossier
+existant sont bien détecter et verifie aussi si show() previens si le dossier n'existe pas
+et si les fonction de recherche ciblé fonctionne correctement ainsi que la fonction de recherche par extension
 
 ### Limites et Suite
 
-il n'y a pas d'interface graphique et le programme n'est pas assez autonome
-pour marcher depuis n'importe quel repertoire il commence du repertoire personnel 
-par defaut et il et impossible pour le moment de le changer et aussi il manque les
-test de `user()` qui n'ont pas etait effectuer non plus mais qui sont gérer par `raise`
+Les limite sont les suivant :
+
+- il n'y a pas d'interface graphique et le programme n'est pas assez autonome
+- il ne marche pas depuis n'importe quel répertoire il commence obligatoirement du repertoire personnel
+- certain code sans pas tester mais gerer par `raise` c'est pas un moyen fiable a 100%
+-par defaut et il et impossible pour le moment de le changer et aussi il manque les
+-test de `user()` qui n'ont pas etait effectuer non plus mais qui sont gérer par `raise`
