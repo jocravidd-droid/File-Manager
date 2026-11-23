@@ -15,7 +15,6 @@ que vous avait fournis
 ### Installation
 
 Python Version: 3.15.2
-<b>
 Bibliothéque: requirements.txt
 
 > Installer la *bibliothéque* mettez votre python a la **version** utiliser ici, c'est pas obligatoire
