@@ -40,6 +40,5 @@ Les limite sont les suivant :
 
 - il n'y a pas d'interface graphique et le programme n'est pas assez autonome
 - il ne marche pas depuis n'importe quel répertoire il commence obligatoirement du répertoire personnel
-- certain code sans pas tester mais gérer par `raise` c'est pas un moyen fiable a 100%
--par defaut et il et impossible pour le moment de le changer et aussi il manque les
+- certain code sans pas tester mais gérer par `raise` c'est pas un moyen fiable a 100%-par defaut et il et impossible pour le moment de le changer et aussi il manque les
 -test de `user()` qui n'ont pas etait effectuer non plus mais qui sont gérer par `raise`
