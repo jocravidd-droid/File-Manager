@@ -22,9 +22,9 @@ Bibliothéque: requirements.txt
 
 ### Utilisation
 
-Pour l'utilisation le dossier `examples` explique tout en détaille ainsi que ce qui leve des erreur,
+Pour l'utilisation le dossier `examples` explique tout en détaille sur comment l'utiliser que ce sa soit
 les commande, les exemples d'entrée, et les resultat de chaque commande et comment manipuler le programme
-merci de vous rendre dans le dossier `examples` pour plus d'info
+donc merci de vous rendre dans le dossier `examples` pour plus d'info
 
 ### TEST
 
