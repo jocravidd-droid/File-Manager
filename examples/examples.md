@@ -2,6 +2,8 @@
 
 Les exemples supposent que `Desktop` existe dans le dossier utilisateur. Les résultats sont illustratifs : ils dépendent des fichiers présents sur l'ordinateur. Le nom d'utilisateur est masqué par `****`.
 
+La valeur `Code retourné` ci-dessous est le deuxième élément renvoyé par `show()`. Le programme principal ne l'affiche pas dans le terminal.
+
 ## 1. Afficher tout le contenu (sans filtre)
 
 ```text
@@ -17,6 +19,8 @@ Résumer:
 Nombre de dossier: 1
 Nombre de fichier: 1
 ```
+
+> Code retourné par `show()`: `1` (affichage sans filtre).
 
 ## 2. Filtrer par extension — plusieurs résultats
 
@@ -38,6 +42,8 @@ Nombre de dossier: 0
 Nombre de fichier: 2
 ```
 
+> Code retourné par `show()`: `2` (recherche par extension).
+
 ## 3. Filtrer par extension — aucun résultat
 
 Si aucun fichier ne correspond, le programme affiche quand même le résumé avec zéro résultat.
@@ -54,6 +60,8 @@ Résumer:
 Nombre de dossier: 0
 Nombre de fichier: 0
 ```
+
+> Code retourné par `show()`: `2` (recherche par extension, même sans résultat).
 
 ## 4. Chercher un fichier précis — trouvé
 
@@ -72,6 +80,8 @@ Nombre de dossier: 0
 Nombre de fichier: 1
 ```
 
+> Code retourné par `show()`: `3` (recherche par nom précis).
+
 ## 5. Chercher un fichier précis — introuvable
 
 ```text
@@ -87,6 +97,8 @@ Nombre de dossier: 0
 Nombre de fichier: 0
 ```
 
+> Code retourné par `show()`: `3` (recherche par nom précis, même sans résultat).
+
 ## 6. Dossier introuvable
 
 ```text
@@ -97,6 +109,8 @@ Chargement en cours...
 
 le dossier n'existe pas ou le chemin et mauvais
 ```
+
+> Code retourné par `show()`: `4` (dossier inexistant).
 
 ## 7. Réponse invalide à la question du filtre
 
@@ -127,4 +141,3 @@ Quel fichier chercher vous:
 
 ValueError: le champs filtre et vide !
 ```
-

@@ -89,9 +89,9 @@ def show(dossier, bool, filtre, nombre):
                     + "Nombre de fichier: "
                     + str(n_file)
                 )
-                return resume, 2
+                return resume, 3
     else:
-        return "le dossier n'existe pas ou le chemin et mauvais", 3
+        return "le dossier n'existe pas ou le chemin et mauvais", 4
 
 
 if __name__ == "__main__":
